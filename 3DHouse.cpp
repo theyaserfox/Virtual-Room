@@ -246,6 +246,8 @@ void object(float width,float height,GLuint texid)					// Draw Object Using Requ
 	glEnd();														// Done Drawing Quad
 }
 
+
+/*** Gemy function ***/
 void texture_object(int polygonNum)									// Takes all of the textures in the world.txt file and creates them
 {
 	GLfloat x_m, y_m, z_m, u_m, v_m;
@@ -283,6 +285,8 @@ void texture_object(int polygonNum)									// Takes all of the textures in the 
 	glEnd();
 }
 
+
+/*** Gemy function ***/
 void render(void)													// Our Rendering Is Done Here
 {
 
@@ -365,6 +369,8 @@ void render(void)													// Our Rendering Is Done Here
 	glutSwapBuffers ( );
 }
 
+
+/*** Gemy function ***/
 void openDoor()														//This function is used to open the door
 {
 	if(!DOOR_IS_OPEN)
