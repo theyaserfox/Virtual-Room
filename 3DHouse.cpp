@@ -643,6 +643,7 @@ bool no_collision()															//Detects the collision of walls, false if col
 	}
 	else 
 		return false;
+	
 }
 
 
